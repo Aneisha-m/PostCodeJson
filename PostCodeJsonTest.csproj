@@ -64,7 +64,6 @@
   <ItemGroup>
     <Compile Include="PostcodeService\DataHandling\PostcodeDTO.cs" />
     <Compile Include="PostcodeService\DataHandling\PostcodeModel.cs" />
-    <Compile Include="PostcodeService\DataHandling\RootObject.cs" />
     <Compile Include="PostcodeService\File Manager\PostcodeFileManager.cs" />
     <Compile Include="PostcodeService\PostcodeService.cs" />
     <Compile Include="Tests\UnitTest1.cs" />

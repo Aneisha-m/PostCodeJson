@@ -10,7 +10,7 @@ namespace PostCodeJsonTest
         [Test]
         public void TestMethod1()
         {
-            Assert.AreEqual(200, postcodeService.postCodeDTO.status);
+            Assert.AreEqual(200, postcodeService.postCodeDTO.postcodeobject.status);
         }
     }
 }

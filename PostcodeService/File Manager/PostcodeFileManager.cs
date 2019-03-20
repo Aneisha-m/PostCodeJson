@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 using Newtonsoft.Json;
 
@@ -13,13 +10,13 @@ namespace PostCodeJsonTest
     {
         public string Json(string Fileinfo)
         {
-            string json;
-            using (StreamReader r = new StreamReader(Fileinfo))
+            string Json;
+            using (var stream = new StreamReader(Fileinfo))
             {
-                json = r.ReadToEnd();
+                Json = stream.ReadToEnd();
                               
             }
-            return json;
+            return Json;
         }
     }
 }
